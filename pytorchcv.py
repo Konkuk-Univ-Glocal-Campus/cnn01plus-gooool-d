@@ -114,6 +114,8 @@ def plot_results(hist): # plot_results라는 함수를 정의하는데 hist라�
     plt.plot(hist['train_loss'], label='Training loss') # hist 딕셔너리에서 학습 손실(train_loss)을 추출하여 그래프로 그린는데 라벨을 'Training loss'로 지정
     plt.plot(hist['val_loss'], label='Validation loss') # hist 딕셔너리에서 검증 손실(val_loss)을 추출하여 그래프로 그리는데 라벨을 'Validation loss'로 지정
     plt.legend() # 그래프에 범례를 추가
+    #validation -> test 변경 요
+    
 
 # 컨볼루션(Convolution) 연산을 시각화하는 함수 plot_convolution을 정의하는데 특정 커널을 사용하여 이미지에 적용한 결과를 보여줌 
 
